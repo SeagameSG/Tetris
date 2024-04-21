@@ -398,6 +398,7 @@ function updateGameLevel(level) {
         document.getElementById('levelDetail').innerHTML = "Điều bất ngờ: <br> Mỗi 10 giây sẽ ngẫu nhiên 1 hiệu ứng của 5 level trước đó <br> Hoặc là không có gì nếu vào số 1 <br> Đừng hỏi tôi, không biết đâu !!";
     }
     else {
+        currentLevel = 1;
         document.getElementById('levelDetail').innerHTML = 'Di chuyển: Mũi tên trái phải <br> Thả nhanh: Mũi tên xuống <br> Xoay: Q và W <br> Start,Reset: S';
     }
     
