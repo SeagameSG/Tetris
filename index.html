@@ -1,0 +1,53 @@
+<!-- 21130317_LamTrachDong_0868409021_DH21DTB_T2T123 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="left-controls">
+        <button class="aboutbtn">About</button>
+        <div class="dropdown">
+            <button class="dropbtn">Level <span id="level-indicator">1</span></button>
+            <div class="dropdown-content">
+                <a data-level="1">Lv 1</a>
+                <a data-level="2">Lv 2</a>
+                <a data-level="3">Lv 3</a>
+                <a data-level="4">Lv 4</a>
+                <a data-level="5">Lv 5</a>
+                <a data-level="6">Lv 6</a>
+            </div>
+        </div>
+        <div id="score" class="score">Score: 0</div>
+    </div>
+    <div id="timer" class="timer">Timer: 0</div>
+    <button id="startButton">Play</button>
+    <canvas id="game-screen" width="480" height="800"></canvas>
+    <div class="level-detail" id="levelDetail">Di chuyển: Mũi tên trái phải <br> Thả nhanh: Mũi tên xuống <br> Xoay: Q
+        và W <br> Start,Reset: S</div>
+    <div id="gameOver" class="game-over">Game Over</div>
+    <div id="aboutPopup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h1>Giới thiệu bản thân</h1>
+            <p>Xin chào, tôi là Lâm Trạch Đông, sinh ngày 5/12/2003. Đến từ Trà Vinh. <br> Hiện tại đang là sinh viên
+                năm 3 ngành Công nghệ thông tin tại trường Đại học Nông Lâm TP.HCM.
+                <br>Tính cách vui vẻ, hòa đồng và luôn cố thân thiện với mọi người, nhưng mà như vậy dễ bị ghét lắm,
+                đang cố gắng sửa.
+                <br>Game và Anime là hai niềm đam mê lớn nhất. <br> Trở thành một lập trình viên game là một việc rất
+                khó khăn, đặt biệt là với hiểu biết và trình độ của tôi hiện tại.
+                <br>Cố gắng để đi từ zero đến hero là 1 điều không tưởng. <br> Nên tôi có uớc mơ là được trở thành người
+                bình thường như bao người.
+                <br>Cảm ơn đã đọc.
+            </p>
+        </div>
+    </div>
+</body>
+<script src="tetris.js"></script>
+
+</html>
